@@ -1,11 +1,11 @@
 import random
 
-RPS = ["Rock", "Paper", "Scissors"]
+RPS = ["rock", "paper", "scissors"]
 
 def get_rps():
     gamerps = random.randint(0, 2)
     gamechoice = RPS[gamerps]
-    return gamechoice.lower()
+    return gamechoice
 
 
 def get_userinput():
